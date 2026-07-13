@@ -5,9 +5,9 @@ function saludar() {
 saludar.id = 10;
 saludar.nombre = "Mi función";
 
-console.log(Object.keys(saludar));
+console.log("Keys:", Object.keys(saludar));
 
-console.log(saludar.hasOwnProperty("id"));
-console.log(saludar.hasOwnProperty("nombre"));
-console.log(saludar.hasOwnProperty("length"));
-console.log(saludar.hasOwnProperty("name"));
+console.log("id:", saludar.hasOwnProperty("id"));
+console.log("nombre:", saludar.hasOwnProperty("nombre"));
+console.log("length:", saludar.hasOwnProperty("length"));
+console.log("name:", saludar.hasOwnProperty("name"));
